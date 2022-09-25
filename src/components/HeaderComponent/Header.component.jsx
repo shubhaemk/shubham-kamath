@@ -11,7 +11,7 @@ import {
   SelectedTabItem
 } from "./Header.styles";
 
-import ResumePath from '../../resume/resume.pdf';
+import ResumePath from '../../resume/resume.docx';
 
 
 const HeaderComponent = props => {
@@ -50,7 +50,7 @@ const HeaderComponent = props => {
                   })
               }
             <Item>
-              <ResumeButton href={ResumePath} download="Shubham_Kamath.pdf">
+              <ResumeButton href={ResumePath} download="Shubham_Kamath.docx">
                 Resume
               </ResumeButton>
             </Item>
